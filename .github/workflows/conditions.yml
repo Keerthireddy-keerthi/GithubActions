@@ -53,6 +53,7 @@ jobs:
       id-token: write
       contents: read
 
+    # GitHub pauses here and waits for approval
     environment:
       name: production
 
